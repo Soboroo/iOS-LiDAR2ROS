@@ -21,7 +21,7 @@ import OSLog
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    private let logger = Logger(subsystem: "com.christophebedard", category: "AppDelegate")
+    private let logger = Logger(subsystem: "com.soboroo", category: "AppDelegate")
     
     var window: UIWindow?
     

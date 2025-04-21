@@ -22,7 +22,7 @@ import ARKit
 import OSLog
 
 final class ViewController: UIViewController, ARSessionDelegate {
-    private let logger = Logger(subsystem: "com.christophebedard.lidar2ros", category: "ViewController")
+    private let logger = Logger(subsystem: "com.soboroo.LiDAR2ROS", category: "ViewController")
     
     private let rgbVisibilitySlider = UISlider()
     

@@ -19,7 +19,7 @@ import ARKit
 
 /// Class providing a view with ROS-related controls.
 final class RosControllerViewProvider {
-    private let logger = Logger(subsystem: "com.christophebedard.lidar2ros", category: "RosControllerViewProvider")
+    private let logger = Logger(subsystem: "com.soboroo.LiDAR2ROS", category: "RosControllerViewProvider")
     
     // Global/connection
     private let urlTextField = UITextField()
